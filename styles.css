@@ -3,16 +3,24 @@ body
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    background-color: darksalmon;
 }
 h1{
-    margin-top: 0;
+    color: #B83B5E;
+    font-size: 5.62rem;
+    margin-top: 10px;
     font-family: 'Sacramento', cursive;
 }
 h2
 {
+    color: #FF2E63;
+
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 h3{
+    background-color:  #11999E;
+
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,9 +37,22 @@ h3{
     right:300px;
     top: 50px;
 }
-.bottom-cloud
+.midbottom-cloud
 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+.bottom-cloud
+{
+    position: absolute;
+    top: 350px;
+    right: 250px;;
+
+}
+.bird
+{
+    position: absolute;
+    top: 340px;
+    left: 450px;
 }
